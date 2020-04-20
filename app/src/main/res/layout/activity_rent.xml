@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rent">
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="253dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/carR"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/carR"
+        android:layout_width="119dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:drawableStart="@drawable/ic_launcher_carstop"
+        android:drawableLeft="@drawable/ic_launcher_carstop"
+        android:text="@string/carr"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/txtView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rent a Car App</string>
+    <string name="cars">Car Rental Image</string>
+    <string name="txtCars">National Car Rentals</string>
+    <string name="btnRent">RENTAL OPTIONS</string>
+    <string name="carr">carR</string>
+</resources>
