@@ -9,7 +9,7 @@
     <ImageView
         android:id="@+id/imgCars"
         android:layout_width="369dp"
-        android:layout_height="0dp"
+        android:layout_height="196dp"
         android:layout_marginBottom="335dp"
         android:contentDescription="@string/cars"
         android:src="@drawable/cars3"
@@ -29,7 +29,7 @@
         android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/imgCars"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintHorizontal_bias="0.402"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
