@@ -16,7 +16,7 @@ public class Rent extends ListActivity {
         super.onCreate(savedInstanceState);
         String[] carRental = {"Emterprise Rent A Car Website", "Payless Car Rental Website", "Budget Car Rental Website",
                 "Hertz Car Rental Website", "Avis Car Rental Website", "Alamo Car Rental Website"};
-        setListAdapter(new ArrayAdapter<String>(this, R.layout.activity_main, R.id.txtView, carRental));
+        setListAdapter(new ArrayAdapter<String>(this, R.layout.activity_rent, R.id.txtView, carRental));
 
     }
     protected void onListItemClick(ListView l, View v, int position, long id){
