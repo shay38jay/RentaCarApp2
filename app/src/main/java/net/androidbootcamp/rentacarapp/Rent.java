@@ -14,7 +14,7 @@ public class Rent extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String[] carRental = {"Emterprise Rent A Car Website", "Payless Car Rental Website", "Budget Car Rental Website",
+        String[] carRental = {"Enterprise Rent A Car Website", "Payless Car Rental Website", "Budget Car Rental Website",
                 "Hertz Car Rental Website", "Avis Car Rental Website", "Alamo Car Rental Website"};
         setListAdapter(new ArrayAdapter<String>(this, R.layout.activity_rent, R.id.txtView, carRental));
 
